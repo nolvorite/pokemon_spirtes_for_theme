@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+div,button,a{font-family:Aller!important;}
+
+.movemenu button {
+                 display:block;
+                 float:none;
+                 border:0;
+                 box-shadow:0 0;
+                 text-align:left;
+                 font-weight:bold;
+                 font-size: 12px;
+                 background:#373f4a none!important;
+                 color:#fff;
+                 text-shadow:0 0;
+                 box-shadow: inset 0 20px #484c57;
+                 height: 36px;
+                 padding-top: 4px;
+                 transition:.6s background,.6s color,.6s box-shadow,.6s opacity;
+                 opacity:.8;
+                 padding-left: 35px;
+                 width: 200px;
+                 }
+
+.movemenu button:hover{opacity:1;background:#a59c10!important;color:#0e0b00;box-shadow:inset 0 23px #c1a800}
+
+
+.movemenu button small{font-weight:normal}
+.movemenu button .type{color:#fff!important;margin-top: 4px;font-size:0!important}
+.movemenu button .pp{margin-top: 3px;transition:.6s background;background:#545b63;display:inline-block;padding: 0 3px;border-radius:5px;color:#fff!important;font-size: 6px!important;}
+
+.movemenu button:hover .pp{background:#041932;}
+.movemenu button:hover .type{color:#0e0b00!important;}
+
+.movemenu {
+    display: inline-block;
+    position: absolute;
+    z-index: 1000;
+    left: 370px;
+    bottom: 60px;
+}
+
+.movemenu button .type{background:#000;box-shadow:0 0 1px 1px rgba(255,255,255,.3), inset 0 5px 5px rgba(0,0,0,.33); margin:-13px 0 0 -30px;height:22px;width:25px;padding:0;border-radius:3px;}
+
+.movemenu button .type{background-size:cover!important;}
+
+.movemenu button.type-Bug .type {
+    background: #748502 url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/bug.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Rock .type {
+    background: #bcb778 url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/rock.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Normal .type {
+    background: #9fa19e url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/normal.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Water .type {
+    background: #2981ef url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/water.png') no-repeat scroll top left;
+}
