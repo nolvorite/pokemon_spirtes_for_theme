@@ -61,6 +61,22 @@ div,button,a{font-family:Aller!important;}
     background: #2981ef url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/water.png') no-repeat scroll top left;
 }
 
+.movemenu button.type-Fire .type {
+    background: #bc333a url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/fire.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Ice .type {
+    background: #3abcde url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/ice.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Ground .type {
+    background: #7d4c2a url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/ground.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Psychic .type {
+    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/psychic.png') no-repeat scroll top left;
+}
+
 label.megaevo {
     /* margin-left: -100px; */
     /* margin-top: -300px; */
@@ -108,4 +124,40 @@ label.megaevo *{display:none;}
 .movemenu button:hover::before{
     background:transparent url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/selected_arrow.png') no-repeat scroll top left;background-size:contain;
     opacity:1
+}
+
+#tooltipwrapper .tooltip {
+    background: rgb(17 16 56 / 80%);
+    color: #fff;
+    padding: 3px 6px 6px;
+    font-family: Aller;
+    border: 0;
+}
+
+#tooltipwrapper .tooltip h2 {
+    color: #fff;
+    /* padding-bottom: 8px; */
+    border-bottom: 2px solid rgb(132 202 220 / 60%);
+    margin-bottom: 5px;
+    font-size: 1em;
+    line-height: 150%;
+}
+
+#tooltipwrapper .tooltip p small {
+    color: #dccc75;
+    font-weight: bold;
+}
+
+#tooltipwrapper .tooltip p {
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(132 202 220 / 60%);
+    margin-bottom: 5px;
+}
+
+#tooltipwrapper .tooltip p.tooltip-section {
+    border-top: 0;
+}
+
+.tooltip:last-child {
+    border-bottom: 0;
 }
