@@ -95,3 +95,17 @@ label.megaevo *{display:none;}
 .trainer strong {
     font-size: 120%;
 }
+
+.movemenu button::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin:-3px 0 0 -45px;
+    opacity:0;transition:1s opacity;
+}
+
+.movemenu button:hover::before{
+    background:transparent url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/selected_arrow.png') no-repeat scroll top left;background-size:contain;
+    opacity:1
+}
