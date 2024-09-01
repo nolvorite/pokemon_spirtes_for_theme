@@ -77,6 +77,38 @@ div,button,a{font-family:Aller!important;}
     background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/psychic.png') no-repeat scroll top left;
 }
 
+.movemenu button.type-Fairy .type {
+    background: #bc333a url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/fairy.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Fighting .type {
+    background: #3abcde url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/fighting.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Grass .type {
+    background: #7d4c2a url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/grass.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Dark .type {
+    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/dark.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Steel .type {
+    background: #bc333a url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/steel.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Dragon .type {
+    background: #3abcde url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/dragon.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Poison .type {
+    background: #7d4c2a url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/poison.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Electric .type {
+    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/electric.png') no-repeat scroll top left;
+}
+
 label.megaevo {
     /* margin-left: -100px; */
     /* margin-top: -300px; */
@@ -141,7 +173,7 @@ label.megaevo *{display:none;}
     margin-bottom: 5px;
     font-size: 1em;
     line-height: 150%;
-}
+} 
 
 #tooltipwrapper .tooltip p small {
     color: #dccc75;
@@ -160,4 +192,18 @@ label.megaevo *{display:none;}
 
 .tooltip:last-child {
     border-bottom: 0;
+}
+
+#monster_preview {
+    height: 100%;
+    max-height:150px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    position: absolute;
+    margin-top: -150px;
+    right: 0;
+    z-index: -10000;
+    opacity: .3;
 }
