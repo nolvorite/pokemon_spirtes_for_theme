@@ -2,7 +2,7 @@
 
 div,button,a{font-family:Aller!important;}
 
-.movemenu button {
+.movemenu button,.movemenu button[disabled] {
                  display:block;
                  float:none;
                  border:0;
@@ -22,7 +22,9 @@ div,button,a{font-family:Aller!important;}
                  width: 200px;
                  }
 
-.movemenu button:hover{opacity:1;background:#a59c10!important;color:#0e0b00;box-shadow:inset 0 23px #c1a800}
+.movemenu button[disabled]{opacity:.5}
+
+.movemenu button:not([disabled]):hover{opacity:1;background:#a59c10!important;color:#0e0b00;box-shadow:inset 0 23px #c1a800}
 
 
 .movemenu button small{font-weight:normal}
@@ -109,6 +111,10 @@ div,button,a{font-family:Aller!important;}
     background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/electric.png') no-repeat scroll top left;
 }
 
+.movemenu button.type-Ghost .type {
+    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/ghost.png') no-repeat scroll top left;
+}
+
 label.megaevo {
     /* margin-left: -100px; */
     /* margin-top: -300px; */
@@ -153,7 +159,7 @@ label.megaevo *{display:none;}
     opacity:0;transition:1s opacity;
 }
 
-.movemenu button:hover::before{
+.movemenu button:not([disabled]):hover::before{
     background:transparent url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/selected_arrow.png') no-repeat scroll top left;background-size:contain;
     opacity:1
 }
@@ -207,3 +213,4 @@ label.megaevo *{display:none;}
     z-index: -10000;
     opacity: .3;
 }
+

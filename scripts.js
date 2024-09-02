@@ -9,8 +9,6 @@ setInterval(()=> {
 			$("#tooltipwrapper .tooltip").append("<div id='monster_preview' style='background-image:url(\"https://play.pokemonshowdown.com/sprites/ani/"+ monsterName +".gif\");'></div>")
 		}
 
-		
-
 	}
 
 },1000)
