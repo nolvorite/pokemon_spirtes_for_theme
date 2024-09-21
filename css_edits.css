@@ -111,10 +111,6 @@ div,button,a{font-family:Aller!important;}
     background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/electric.png') no-repeat scroll top left;
 }
 
-.movemenu button.type-Ghost .type {
-    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/ghost.png') no-repeat scroll top left;
-}
-
 label.megaevo {
     /* margin-left: -100px; */
     /* margin-top: -300px; */
