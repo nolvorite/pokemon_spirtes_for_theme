@@ -1,4 +1,6 @@
 
+//add a monster display in the tooltip preview
+
 setInterval(()=> { 
 
 	if($("#tooltipwrapper").has(".tooltip-activepokemon") || $("#tooltipwrapper").has(".tooltip-switchpokemon") || $("#tooltipwrapper").has(".tooltip-pokemon") ){  
@@ -11,4 +13,15 @@ setInterval(()=> {
 
 	}
 
+},1000)
+
+
+//add a selector for the sprites currently displayed
+
+setInterval(() => {
+
+    
+$("img[src^='https://play.pokemonshowdown.com/sprites/ani/'],img[src^='https://play.pokemonshowdown.com/sprites/ani-back/']").addClass("sprite_displays").parent("div").addClass("sprite_containers");
+
+    
 },1000)

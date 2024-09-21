@@ -129,9 +129,9 @@ background-size:contain;}
 label.megaevo *{display:none;}
 
 .rightbar,.leftbar {
-    background: rgba(0,0,0,.3);
+    background: rgb(17 16 56 / 80%);
     color: #fff;
-    box-shadow: 0 10px 10px rgba(0,0,0,.4);
+    box-shadow: 0 10px 10px rgb(17 16 56 / 40%);
     border:0;
 }
 
@@ -210,3 +210,78 @@ label.megaevo *{display:none;}
     opacity: .3;
 }
 
+.statbar .hpbar {
+    height: 14px;
+    background: #4f4146;
+    border-radius: 1px;
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.3),0 0 0 1px rgba(255,255,255,.7),0 0 1px 2px rgba(0,0,0,.4);
+    border: 2px solid #4f4146;
+}
+
+.statbar .hpbar .prevhp,.statbar .hpbar .hp {
+    background: #2fcd2f;
+}
+
+
+.statbar .hpbar .hp {
+    border-radius: 0;
+    border: 0;
+}
+
+.statbar .hpbar .prevhp {
+    border-radius: 0;
+    height: 100%;
+}
+
+.statbar .hpbar .hptext {
+    right: 0;
+    border-radius: 0;
+    font-size: 16px;
+    background: transparent;
+    /* left: 0; */
+    padding-right: 5px;
+}
+
+
+
+.statbar.lstatbar .hpbar .hptext {
+    left: unset;
+    /* right: unset; */
+    float: right;
+}
+
+.lstatbar .hpbar {
+    text-align: right;
+}
+
+.prevhp.prevhp-yellow, .prevhp.prevhp-yellow .hp {
+    background: #f4c403!important;
+}
+
+.prevhp, .prevhp .hp {
+    transition: .4s background;
+}
+
+.statbar.lstatbar.leftstatbar,.statbar.rstatbar.rightstatbar {
+    -webkit-transform: translate(20px, -1px);
+    -moz-transform: translate(20px, -1px);
+    transform: translate(30px, 30px);
+}
+
+.statbar strong {
+    color: #fff;
+    text-shadow: #000 0 4px 4px, #000 0 0 5px;
+    margin: 5px 0;
+}
+
+.statbar span.brn,.statbar span.psn,.statbar span.par {
+    margin-top: -20px;
+}
+
+.statbar .status {
+    margin-top: 5px;
+}
+
+.sprite_containers img:last-child {
+        transform: translate(30px, 30px);
+}
