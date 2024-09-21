@@ -15,13 +15,8 @@ setInterval(()=> {
 
 },1000)
 
-
 //add a selector for the sprites currently displayed
-
 setInterval(() => {
-
-    
+$(".turn").removeClass('has-tooltip');
 $("img[src^='https://play.pokemonshowdown.com/sprites/']").addClass("sprite_displays").parent("div").addClass("sprite_containers");
-
-    
 },100)
