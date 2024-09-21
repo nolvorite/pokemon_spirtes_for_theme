@@ -269,7 +269,7 @@ label.megaevo *{display:none;}
 }
 
 .prevhp.prevhp-yellow, .prevhp.prevhp-yellow .hp {
-    background: #f4c403!important;
+    /* background: #f4c403!important; */
 }
 
 .prevhp, .prevhp .hp {
