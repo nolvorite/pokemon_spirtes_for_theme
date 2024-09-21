@@ -21,7 +21,7 @@ setInterval(()=> {
 setInterval(() => {
 
     
-$("img[src^='https://play.pokemonshowdown.com/sprites/ani/'],img[src^='https://play.pokemonshowdown.com/sprites/ani-back/']").addClass("sprite_displays").parent("div").addClass("sprite_containers");
+$("img[src^='https://play.pokemonshowdown.com/sprites/']").addClass("sprite_displays").parent("div").addClass("sprite_containers");
 
     
 },1000)
