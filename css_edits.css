@@ -47,6 +47,15 @@ div,button,a{font-family:Aller!important;}
 
 .movemenu button .type{background-size:cover!important;}
 
+.movemenu button.type-Ghost .type {
+    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/ghost.png') no-repeat scroll top left;
+}
+
+.movemenu button.type-Flying .type {
+    background: #c63e6f url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/flying.png') no-repeat scroll top left;
+}
+
+
 .movemenu button.type-Bug .type {
     background: #748502 url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/main/types/bug.png') no-repeat scroll top left;
 }
@@ -218,8 +227,8 @@ label.megaevo *{display:none;}
     border: 2px solid #4f4146;
 }
 
-.statbar .hpbar .prevhp,.statbar .hpbar .hp {
-    background: #2fcd2f;
+.statbar .hpbar .prevhp {
+    background: transparent;
 }
 
 
@@ -236,18 +245,23 @@ label.megaevo *{display:none;}
 .statbar .hpbar .hptext {
     right: 0;
     border-radius: 0;
-    font-size: 16px;
+    font-size: 14px;
     background: transparent;
     /* left: 0; */
     padding-right: 5px;
+    padding-top: 1px;
 }
 
 
 
-.statbar.lstatbar .hpbar .hptext {
+.statbar .hpbar .hptext {
     left: unset;
     /* right: unset; */
-    float: right;
+    /* float: right; */
+    /* transform: translate(-10px, 0); */
+    text-align: right;
+    width: unset;
+    padding-right: 3px;
 }
 
 .lstatbar .hpbar {
@@ -272,6 +286,7 @@ label.megaevo *{display:none;}
     color: #fff;
     text-shadow: #000 0 4px 4px, #000 0 0 5px;
     margin: 5px 0;
+    font-weight: normal;
 }
 
 .statbar span.brn,.statbar span.psn,.statbar span.par {
@@ -284,4 +299,32 @@ label.megaevo *{display:none;}
 
 .sprite_containers img:last-child {
         transform: translate(30px, 30px);
+}
+
+.statbar .hpbar .hp {background: #2fcd2f;height: 100%;}
+
+.weather {
+    background-color: #000;
+}
+
+.statbar {
+    padding: 0 10px 5px;
+    background: rgb(17 16 56 / 30%);
+    border-radius: 5px;
+}
+
+.tooltip.tooltip-field p {
+    border-bottom: 0!important;
+    padding: 0!important;
+    border-bottom: 0;
+}
+
+.tooltip.tooltip-field {
+    padding: 0;
+}
+
+p {}
+
+.snowweather, .hailweather {
+    background-image: url('https://raw.githubusercontent.com/nolvorite/pokemon_sprites_for_theme/refs/heads/main/weather/snow.png');
 }
