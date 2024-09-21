@@ -24,4 +24,4 @@ setInterval(() => {
 $("img[src^='https://play.pokemonshowdown.com/sprites/']").addClass("sprite_displays").parent("div").addClass("sprite_containers");
 
     
-},1000)
+},100)
