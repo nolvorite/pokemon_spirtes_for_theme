@@ -308,8 +308,8 @@ label.megaevo *{display:none;}
 }
 
 .statbar {
-    padding: 0 10px 5px;
-    background: rgb(17 16 56 / 30%);
+    /* padding: 0 10px 5px; */
+    /* background: rgb(17 16 56 / 30%); */
     border-radius: 5px;
 }
 
